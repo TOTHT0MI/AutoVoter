@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Auto Voter",
+    "description": "Helps you vote on your favorite Minecraft server!",
+    "version": "1.0",
+    "permissions": [
+      "storage"
+    ],
+    "browser_action": {
+      "default_popup": "index.html"
+    },
+    "content_scripts": [
+      {
+        "run_at" :"document_end",
+        "matches": [
+          "https://minecraft-server-list.com/*",
+          "https://minecraft-mp.com/*",
+          "https://minecraftservers.biz/*",
+          "https://minecraft-server.net/*"
+        ],
+        "js": ["build/inject.js"]
+      }
+    ]
+  }
