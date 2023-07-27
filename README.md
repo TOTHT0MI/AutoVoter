@@ -1,5 +1,8 @@
 # AutoVoter
 
+Currently I don't plan on updating the project myself.
+If you want it to continue you ay do a PR or fork it.
+
 AutoVoter is a very simple browser extension, that fills in usernames automatically when voting for a Minecraft server on many voting sites.
 At the moment it's still in development, but after that I'll probably make it available as a proper extension.
 
